@@ -1,0 +1,8 @@
+| USER_TO_KICKED | chat_id=-1 user_id=8 response_time=7.15ms
+2026-10-05 11:21:58,929 | INFO | bot.handlers.group.bans_func | ban:56 | BAN | chat_id=-1 user_id=8 target_id=84 response_time=362.64ms
+2026-10-05 12:22:46,470 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-10-05 12:25:00,178 | WARNING | bot.middleware.error_middleware | __call__:24 | USER_NOT_FOUND | chat_id=-1 user_id=8 target_id=9 response_time=5.38ms
+2026-10-05 12:25:08,127 | WARNING | bot.middleware.error_middleware | __call__:24 | NO_USER_IN_ARGS | chat_id=-1 user_id=8 response_time=0.62ms
+2026-10-05 12:25:41,022 | WARNING | bot.middleware.error_middleware | __call__:24 | USER_NOT_FOUND | chat_id=-1 user_id=8 target_id=9 response_time=1.59ms
+2026-10-05 12:25:48,105 | INFO | bot.handlers.group.bans_func | unban:87 | UNBAN | chat_id=-1 user_id=8 target_id=84 response_time=240.6ms
+

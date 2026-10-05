@@ -55,6 +55,8 @@ class UtilsService:
 				raise UserNotFoundError(username)
 			return member.user_id
 		if target.isdigit():
+			if int(target) == 0:
+				raise InvalidUsernameOrIdInArgumentsError
 			return int(target)
 		raise InvalidUsernameOrIdInArgumentsError
 	
@@ -65,7 +67,7 @@ class UtilsService:
 			if len(args) == 2:
 				if args[1].startswith("@"):
 					raise DoubleUsernameInArgumentsError
-				if not args[1].isdigit:
+				if not args[1].isdigit():
 					raise InvalidTimeArgumentError
 			user = message.reply_to_message.from_user
 			user_id = user.id

@@ -2738,3 +2738,33 @@ AttributeError: 'NoneType' object has no attribute 'admin'
 2026-06-13 19:17:11,554 | INFO | bot.handlers.group.basic | help_callback:170 | CALLBACK_HELP_BACK | chat_id=-1003921072637 user_id=8075767034 response_time=118.48ms
 2026-06-13 19:17:12,464 | INFO | bot.handlers.group.basic | help_callback:153 | CALLBACK_HELP_BANS | chat_id=-1003921072637 user_id=8075767034 response_time=113.65ms
 2026-06-13 19:17:16,568 | INFO | bot.handlers.group.basic | help_callback:170 | CALLBACK_HELP_BACK | chat_id=-1003921072637 user_id=8075767034 response_time=200.36ms
+2026-06-13 19:29:43,715 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-06-13 19:29:55,993 | WARNING | bot.middleware.error_middleware | __call__:24 | NO_USER_IN_ARGS | chat_id=-1003921072637 user_id=8075767034 response_time=3.71ms
+2026-06-13 19:30:05,460 | INFO | bot.handlers.group.admin_func | promote_demote:45 | DEMOTE | chat_id=-1003921072637 admin_id=8075767034 target_id=8421643331 response_time=759.18ms
+2026-06-13 19:30:05,473 | INFO | bot.handlers.group.management | chat_member:122 | ADMIN_TO_USER | chat_id=-1003921072637 user_id=8421643331 response_time=6.86ms
+2026-06-13 19:43:56,118 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-06-13 19:44:00,616 | WARNING | bot.middleware.error_middleware | __call__:24 | NO_USER_IN_ARGS | chat_id=-1003921072637 user_id=8075767034 response_time=4.46ms
+2026-06-16 10:12:37,606 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-06-16 10:12:56,944 | WARNING | bot.middleware.error_middleware | __call__:24 | INVALID_USER_OR_ID | chat_id=-1003921072637 user_id=8075767034 response_time=0.64ms
+2026-06-16 10:13:06,877 | WARNING | bot.middleware.error_middleware | __call__:24 | USER_NOT_FOUND | chat_id=-1003921072637 user_id=8075767034 target_id=123 response_time=113.9ms
+2026-06-16 10:13:17,570 | INFO | bot.handlers.group.management | chat_member:122 | USER_TO_KICKED | chat_id=-1003921072637 user_id=8421643331 response_time=20.66ms
+2026-06-16 10:13:17,575 | INFO | bot.handlers.group.bans_func | ban:56 | BAN | chat_id=-1003921072637 user_id=8075767034 target_id=8421643331 response_time=434.83ms
+2026-06-16 10:13:21,167 | INFO | bot.handlers.group.management | chat_member:122 | KICKED_TO_USER | chat_id=-1003921072637 user_id=8421643331 response_time=9.08ms
+2026-06-16 10:13:29,733 | WARNING | bot.middleware.error_middleware | __call__:24 | INVALID_TIME_ARG | chat_id=-1003921072637 user_id=8075767034 response_time=201.4ms
+2026-06-16 10:13:42,838 | WARNING | bot.middleware.error_middleware | __call__:24 | INVALID_USER_OR_ID | chat_id=-1003921072637 user_id=8075767034 response_time=0.53ms
+2026-06-16 10:14:36,148 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-06-16 10:14:38,603 | WARNING | bot.middleware.error_middleware | __call__:24 | INVALID_USER_OR_ID | chat_id=-1003921072637 user_id=8075767034 response_time=0.61ms
+2026-06-16 10:15:21,765 | WARNING | bot.middleware.error_middleware | __call__:24 | INVALID_USER_OR_ID | chat_id=-1003921072637 user_id=8075767034 response_time=0.55ms
+2026-06-16 10:15:25,859 | WARNING | bot.middleware.error_middleware | __call__:24 | INVALID_USER_OR_ID | chat_id=-1003921072637 user_id=8075767034 response_time=0.51ms
+2026-06-17 12:28:41,757 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-06-17 12:28:50,673 | INFO | bot.handlers.group.admin_func | anonadmin_adminerror:97 | ANONADMIN | chat_id=-1003921072637 user_id=8075767034 response_time=11.31ms
+2026-06-17 12:28:57,662 | INFO | bot.handlers.group.admin_func | anonadmin_adminerror:97 | ANONADMIN | chat_id=-1003921072637 user_id=8075767034 response_time=8.47ms
+2026-10-05 11:21:07,453 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-10-05 11:21:50,870 | WARNING | bot.middleware.error_middleware | __call__:24 | NO_USER_IN_ARGS | chat_id=-1003921072637 user_id=8075767034 response_time=7.38ms
+2026-10-05 11:21:58,908 | INFO | bot.handlers.group.management | chat_member:122 | USER_TO_KICKED | chat_id=-1003921072637 user_id=8421643331 response_time=7.15ms
+2026-10-05 11:21:58,929 | INFO | bot.handlers.group.bans_func | ban:56 | BAN | chat_id=-1003921072637 user_id=8075767034 target_id=8421643331 response_time=362.64ms
+2026-10-05 12:22:46,470 | INFO | __main__ | main:30 | STARTUP_COMPLETE | version=0.5.2.1 bot=@moderation_control_bot
+2026-10-05 12:25:00,178 | WARNING | bot.middleware.error_middleware | __call__:24 | USER_NOT_FOUND | chat_id=-1003921072637 user_id=8075767034 target_id=asdasdasdas23 response_time=5.38ms
+2026-10-05 12:25:08,127 | WARNING | bot.middleware.error_middleware | __call__:24 | NO_USER_IN_ARGS | chat_id=-1003921072637 user_id=8075767034 response_time=0.62ms
+2026-10-05 12:25:41,022 | WARNING | bot.middleware.error_middleware | __call__:24 | USER_NOT_FOUND | chat_id=-1003921072637 user_id=8075767034 target_id=asdsdasdas23\ response_time=1.59ms
+2026-10-05 12:25:48,105 | INFO | bot.handlers.group.bans_func | unban:87 | UNBAN | chat_id=-1003921072637 user_id=8075767034 target_id=8421643331 response_time=240.6ms

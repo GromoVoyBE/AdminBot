@@ -5,6 +5,5 @@ redis_client = redis.Redis(
 	port=6379,
 	decode_responses=True,
 	socket_timeout=5,
-	socket_connect_timeout=5,
-	retry_on_timeout=True,
+	socket_connect_timeout=5
 )

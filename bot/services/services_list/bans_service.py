@@ -51,7 +51,7 @@ class BansService:
 
 		if delete:
 			if not message.reply_to_message:
-				raise NeedReplytoMessageError
+				raise NeedReplyToMessageError
 			await self.telegram_service.delete_message(
 				chat_id,
 				message.reply_to_message.message_id
@@ -239,11 +239,11 @@ class BansService:
 		if member is None:
 			raise UserNotFoundError(user_id)
 		if member.role in ("creator", "admin"):
-			raise CantMuteAdminError(user_id)
+			raise CantKickAdminError(user_id)
 
 		if delete:
 			if not message.reply_to_message:
-				raise NeedReplyToNessageError
+				raise NeedReplyToMessageError
 			await self.telegram_service.delete_message(
 				chat_id,
 				message.reply_to_message.message_id

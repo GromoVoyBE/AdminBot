@@ -1,0 +1,4 @@
+[bot]
+token = "1234567890:ABCDRTKJFDJSDKKD"
+database_url = "postgresql+asyncpg://user:password@localhost:5432/database"
+
